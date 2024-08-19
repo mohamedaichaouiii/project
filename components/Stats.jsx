@@ -9,7 +9,7 @@ const stats = [
   },
   {
     num: 10,
-    text: "Technologies Worked With",
+    text: "Technological Skills",
   },
   {
     num: 8,
