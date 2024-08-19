@@ -95,7 +95,7 @@ const projects = [
 
 ];
 
-const extra = () => {
+const Extra = () => {
   const [project, setProject] = useState(projects[0]);
   const [swiperInstance, setSwiperInstance] = useState(null); // State to hold swiper instance
 
@@ -164,4 +164,4 @@ const extra = () => {
   );
 };
 
-export default extra;
+export default Extra;
