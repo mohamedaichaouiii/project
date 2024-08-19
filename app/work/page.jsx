@@ -14,11 +14,11 @@ const projects = [
   {
     num: "01",
     category: "Fullstack",
-    title: "Projet de fin d’étude chez Talys Consulting",
-    description: `Amélioration des Préférences Utilisateurs sur une Plateforme Microservices.
-    - Développement d’une page utilisateur avancée, permettant la personnalisation du compte.
-    - Implémentation des "Préférences d’Écran Utilisateur" pour personnaliser les colonnes affichées selon les besoins et l’exportation des données.
-    - Création de la fonctionnalité "ACM Hors Ligne" pour définir des paramètres d’utilisation hors ligne.`,
+    title: "Final Project at Talys Consulting",
+    description: `Enhancement of User Preferences on a Microservices Platform.
+    - Development of an advanced user page allowing account customization.
+    - Implementation of "User Screen Preferences" to customize displayed columns according to needs and data export.
+    - Creation of the "Offline ACM" feature to define offline usage parameters.`,
     stack: [
       { name: "Java 8, Angular 12, Spring Boot, Microservices, SQL Server" },
       { name: "HTTP, Git, Spring Tool Suite (STS), Postman API " },
@@ -30,11 +30,11 @@ const projects = [
   {
     num: "01",
     category: "Fullstack",
-    title: "Projet de fin d’étude chez Talys Consulting",
-    description: `Amélioration des Préférences Utilisateurs sur une Plateforme Microservices.
-    - Développement d’une page utilisateur avancée, permettant la personnalisation du compte.
-    - Implémentation des "Préférences d’Écran Utilisateur" pour personnaliser les colonnes affichées selon les besoins et l’exportation des données.
-    - Création de la fonctionnalité "ACM Hors Ligne" pour définir des paramètres d’utilisation hors ligne.`,
+    title: "Final Project at Talys Consulting",
+    description: `Enhancement of User Preferences on a Microservices Platform.
+    - Development of an advanced user page allowing account customization.
+    - Implementation of "User Screen Preferences" to customize displayed columns according to needs and data export.
+    - Creation of the "Offline ACM" feature to define offline usage parameters.`,
     stack: [
       { name: "Java 8, Angular 12, Spring Boot, Microservices, SQL Server" },
       { name: "HTTP, Git, Spring Tool Suite (STS), Postman API " },
@@ -46,11 +46,11 @@ const projects = [
   {
     num: "01",
     category: "Fullstack",
-    title: "Projet de fin d’étude chez Talys Consulting",
-    description: `Amélioration des Préférences Utilisateurs sur une Plateforme Microservices.
-    - Développement d’une page utilisateur avancée, permettant la personnalisation du compte.
-    - Implémentation des "Préférences d’Écran Utilisateur" pour personnaliser les colonnes affichées selon les besoins et l’exportation des données.
-    - Création de la fonctionnalité "ACM Hors Ligne" pour définir des paramètres d’utilisation hors ligne.`,
+    title: "Final Project at Talys Consulting",
+    description: `Enhancement of User Preferences on a Microservices Platform.
+    - Development of an advanced user page allowing account customization.
+    - Implementation of "User Screen Preferences" to customize displayed columns according to needs and data export.
+    - Creation of the "Offline ACM" feature to define offline usage parameters.`,
     stack: [
       { name: "Java 8, Angular 12, Spring Boot, Microservices, SQL Server" },
       { name: "HTTP, Git, Spring Tool Suite (STS), Postman API " },
@@ -62,11 +62,11 @@ const projects = [
   {
     num: "01",
     category: "Fullstack",
-    title: "Projet de fin d’étude chez Talys Consulting",
-    description: `Amélioration des Préférences Utilisateurs sur une Plateforme Microservices.
-    - Développement d’une page utilisateur avancée, permettant la personnalisation du compte.
-    - Implémentation des "Préférences d’Écran Utilisateur" pour personnaliser les colonnes affichées selon les besoins et l’exportation des données.
-    - Création de la fonctionnalité "ACM Hors Ligne" pour définir des paramètres d’utilisation hors ligne.`,
+    title: "Final Project at Talys Consulting",
+    description: `Enhancement of User Preferences on a Microservices Platform.
+    - Development of an advanced user page allowing account customization.
+    - Implementation of "User Screen Preferences" to customize displayed columns according to needs and data export.
+    - Creation of the "Offline ACM" feature to define offline usage parameters.`,
     stack: [
       { name: "Java 8, Angular 12, Spring Boot, Microservices, SQL Server" },
       { name: "HTTP, Git, Spring Tool Suite (STS), Postman API " },
@@ -75,16 +75,15 @@ const projects = [
     live: "",
     github: "",
   },
-
   {
     num: "02",
     category: "Fullstack",
-    title: "Mission de freelance : Application Bancaire Avancée",
-    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
-    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
-    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    title: "Freelance Project: Advanced Banking Application",
+    description: `Development of an advanced banking application for two types of users:
+    - Standard user: Account creation, transfers, deposit management, address book, transaction consultation, dashboard with graphs.
+    - Administrator user: Account validation and deletion, user dashboard.`,
     stack: [
-      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Exception Management" },
       { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
     ],
     image: "/assets2/work/2/1.png",
@@ -94,12 +93,12 @@ const projects = [
   {
     num: "02",
     category: "Fullstack",
-    title: "Mission de freelance : Application Bancaire Avancée",
-    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
-    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
-    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    title: "Freelance Project: Advanced Banking Application",
+    description: `Development of an advanced banking application for two types of users:
+    - Standard user: Account creation, transfers, deposit management, address book, transaction consultation, dashboard with graphs.
+    - Administrator user: Account validation and deletion, user dashboard.`,
     stack: [
-      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Exception Management" },
       { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
     ],
     image: "/assets2/work/2/2.png",
@@ -109,12 +108,12 @@ const projects = [
   {
     num: "02",
     category: "Fullstack",
-    title: "Mission de freelance : Application Bancaire Avancée",
-    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
-    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
-    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    title: "Freelance Project: Advanced Banking Application",
+    description: `Development of an advanced banking application for two types of users:
+    - Standard user: Account creation, transfers, deposit management, address book, transaction consultation, dashboard with graphs.
+    - Administrator user: Account validation and deletion, user dashboard.`,
     stack: [
-      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Exception Management" },
       { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
     ],
     image: "/assets2/work/2/3.png",
@@ -124,12 +123,12 @@ const projects = [
   {
     num: "02",
     category: "Fullstack",
-    title: "Mission de freelance : Application Bancaire Avancée",
-    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
-    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
-    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    title: "Freelance Project: Advanced Banking Application",
+    description: `Development of an advanced banking application for two types of users:
+    - Standard user: Account creation, transfers, deposit management, address book, transaction consultation, dashboard with graphs.
+    - Administrator user: Account validation and deletion, user dashboard.`,
     stack: [
-      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Exception Management" },
       { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
     ],
     image: "/assets2/work/2/4.png",
@@ -139,12 +138,12 @@ const projects = [
   {
     num: "02",
     category: "Fullstack",
-    title: "Mission de freelance : Application Bancaire Avancée",
-    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
-    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
-    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    title: "Freelance Project: Advanced Banking Application",
+    description: `Development of an advanced banking application for two types of users:
+    - Standard user: Account creation, transfers, deposit management, address book, transaction consultation, dashboard with graphs.
+    - Administrator user: Account validation and deletion, user dashboard.`,
     stack: [
-      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Exception Management" },
       { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
     ],
     image: "/assets2/work/2/5.png",
@@ -154,12 +153,12 @@ const projects = [
   {
     num: "02",
     category: "Fullstack",
-    title: "Mission de freelance : Application Bancaire Avancée",
-    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
-    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
-    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    title: "Freelance Project: Advanced Banking Application",
+    description: `Development of an advanced banking application for two types of users:
+    - Standard user: Account creation, transfers, deposit management, address book, transaction consultation, dashboard with graphs.
+    - Administrator user: Account validation and deletion, user dashboard.`,
     stack: [
-      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Exception Management" },
       { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
     ],
     image: "/assets2/work/2/6.png",
@@ -169,8 +168,8 @@ const projects = [
   {
     num: "03",
     category: "Frontend",
-    title: "Membre du département IT de l’association ENIT Junior Entreprise: Site Web The Room Escape",
-    description: `Création d’une interface web réactive et adaptée aux mobiles qui optimise l’expérience utilisateur.`,
+    title: "Member of the IT Department at ENIT Junior Enterprise: The Room Escape Website",
+    description: `Creation of a responsive web interface optimized for mobile devices to enhance user experience.`,
     stack: [
       { name: "HTML, CSS, JavaScript" },
     ],
@@ -181,8 +180,8 @@ const projects = [
   {
     num: "03",
     category: "Frontend",
-    title: "Membre du département IT de l’association ENIT Junior Entreprise: Site Web The Room Escape",
-    description: `Création d’une interface web réactive et adaptée aux mobiles qui optimise l’expérience utilisateur.`,
+    title: "Member of the IT Department at ENIT Junior Enterprise: The Room Escape Website",
+    description: `Creation of a responsive web interface optimized for mobile devices to enhance user experience.`,
     stack: [
       { name: "HTML, CSS, JavaScript" },
     ],
@@ -193,8 +192,8 @@ const projects = [
   {
     num: "03",
     category: "Frontend",
-    title: "Membre du département IT de l’association ENIT Junior Entreprise: Site Web The Room Escape",
-    description: `Création d’une interface web réactive et adaptée aux mobiles qui optimise l’expérience utilisateur.`,
+    title: "Member of the IT Department at ENIT Junior Enterprise: The Room Escape Website",
+    description: `Creation of a responsive web interface optimized for mobile devices to enhance user experience.`,
     stack: [
       { name: "HTML, CSS, JavaScript" },
     ],
@@ -203,6 +202,7 @@ const projects = [
     github: "",
   },
 ];
+
 
 
 const Work = () => {
