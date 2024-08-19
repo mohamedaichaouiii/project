@@ -13,35 +13,197 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "Project 1",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laborum temporibus voluptatem.",
-    stack: [{ name: "HTML5" }, { name: "SQL" }, { name: "CSS3" }, { name: "JavaScript" }],
-    image: "/assets/work/thumb1.png",
+    category: "Fullstack",
+    title: "Projet de fin d’étude chez Talys Consulting",
+    description: `Amélioration des Préférences Utilisateurs sur une Plateforme Microservices.
+    - Développement d’une page utilisateur avancée, permettant la personnalisation du compte.
+    - Implémentation des "Préférences d’Écran Utilisateur" pour personnaliser les colonnes affichées selon les besoins et l’exportation des données.
+    - Création de la fonctionnalité "ACM Hors Ligne" pour définir des paramètres d’utilisation hors ligne.`,
+    stack: [
+      { name: "Java 8, Angular 12, Spring Boot, Microservices, SQL Server" },
+      { name: "HTTP, Git, Spring Tool Suite (STS), Postman API " },
+    ],
+    image: "/assets2/work/4/3.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "01",
+    category: "Fullstack",
+    title: "Projet de fin d’étude chez Talys Consulting",
+    description: `Amélioration des Préférences Utilisateurs sur une Plateforme Microservices.
+    - Développement d’une page utilisateur avancée, permettant la personnalisation du compte.
+    - Implémentation des "Préférences d’Écran Utilisateur" pour personnaliser les colonnes affichées selon les besoins et l’exportation des données.
+    - Création de la fonctionnalité "ACM Hors Ligne" pour définir des paramètres d’utilisation hors ligne.`,
+    stack: [
+      { name: "Java 8, Angular 12, Spring Boot, Microservices, SQL Server" },
+      { name: "HTTP, Git, Spring Tool Suite (STS), Postman API " },
+    ],
+    image: "/assets2/work/4/4.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "01",
+    category: "Fullstack",
+    title: "Projet de fin d’étude chez Talys Consulting",
+    description: `Amélioration des Préférences Utilisateurs sur une Plateforme Microservices.
+    - Développement d’une page utilisateur avancée, permettant la personnalisation du compte.
+    - Implémentation des "Préférences d’Écran Utilisateur" pour personnaliser les colonnes affichées selon les besoins et l’exportation des données.
+    - Création de la fonctionnalité "ACM Hors Ligne" pour définir des paramètres d’utilisation hors ligne.`,
+    stack: [
+      { name: "Java 8, Angular 12, Spring Boot, Microservices, SQL Server" },
+      { name: "HTTP, Git, Spring Tool Suite (STS), Postman API " },
+    ],
+    image: "/assets2/work/4/2.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "01",
+    category: "Fullstack",
+    title: "Projet de fin d’étude chez Talys Consulting",
+    description: `Amélioration des Préférences Utilisateurs sur une Plateforme Microservices.
+    - Développement d’une page utilisateur avancée, permettant la personnalisation du compte.
+    - Implémentation des "Préférences d’Écran Utilisateur" pour personnaliser les colonnes affichées selon les besoins et l’exportation des données.
+    - Création de la fonctionnalité "ACM Hors Ligne" pour définir des paramètres d’utilisation hors ligne.`,
+    stack: [
+      { name: "Java 8, Angular 12, Spring Boot, Microservices, SQL Server" },
+      { name: "HTTP, Git, Spring Tool Suite (STS), Postman API " },
+    ],
+    image: "/assets2/work/4/1.png",
+    live: "",
+    github: "",
+  },
+
+  {
+    num: "02",
+    category: "Fullstack",
+    title: "Mission de freelance : Application Bancaire Avancée",
+    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
+    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
+    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    stack: [
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
+    ],
+    image: "/assets2/work/2/1.png",
     live: "",
     github: "",
   },
   {
     num: "02",
-    category: "backend",
-    title: "Project 2",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laborum temporibus voluptatem.",
-    stack: [{ name: "Java" }, { name: "SQL" }, { name: "Spring Boot" }],
-    image: "/assets/work/thumb2.png",
+    category: "Fullstack",
+    title: "Mission de freelance : Application Bancaire Avancée",
+    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
+    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
+    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    stack: [
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
+    ],
+    image: "/assets2/work/2/2.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "02",
+    category: "Fullstack",
+    title: "Mission de freelance : Application Bancaire Avancée",
+    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
+    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
+    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    stack: [
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
+    ],
+    image: "/assets2/work/2/3.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "02",
+    category: "Fullstack",
+    title: "Mission de freelance : Application Bancaire Avancée",
+    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
+    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
+    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    stack: [
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
+    ],
+    image: "/assets2/work/2/4.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "02",
+    category: "Fullstack",
+    title: "Mission de freelance : Application Bancaire Avancée",
+    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
+    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
+    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    stack: [
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
+    ],
+    image: "/assets2/work/2/5.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "02",
+    category: "Fullstack",
+    title: "Mission de freelance : Application Bancaire Avancée",
+    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
+    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
+    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
+    stack: [
+      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
+      { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
+    ],
+    image: "/assets2/work/2/6.png",
     live: "",
     github: "",
   },
   {
     num: "03",
-    category: "fullstack",
-    title: "Project 3",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laborum temporibus voluptatem.",
-    stack: [{ name: "Angular" }, { name: "SQL" }, { name: "Spring Boot" }, { name: "JavaScript" }],
-    image: "/assets/work/thumb3.png",
+    category: "Frontend",
+    title: "Membre du département IT de l’association ENIT Junior Entreprise: Site Web The Room Escape",
+    description: `Création d’une interface web réactive et adaptée aux mobiles qui optimise l’expérience utilisateur.`,
+    stack: [
+      { name: "HTML, CSS, JavaScript" },
+    ],
+    image: "/assets2/work/3/1.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "03",
+    category: "Frontend",
+    title: "Membre du département IT de l’association ENIT Junior Entreprise: Site Web The Room Escape",
+    description: `Création d’une interface web réactive et adaptée aux mobiles qui optimise l’expérience utilisateur.`,
+    stack: [
+      { name: "HTML, CSS, JavaScript" },
+    ],
+    image: "/assets2/work/3/2.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "03",
+    category: "Frontend",
+    title: "Membre du département IT de l’association ENIT Junior Entreprise: Site Web The Room Escape",
+    description: `Création d’une interface web réactive et adaptée aux mobiles qui optimise l’expérience utilisateur.`,
+    stack: [
+      { name: "HTML, CSS, JavaScript" },
+    ],
+    image: "/assets2/work/3/3.png",
     live: "",
     github: "",
   },
 ];
+
 
 const Work = () => {
   const [project, setProject] = useState(projects[0]);
@@ -72,14 +234,15 @@ const Work = () => {
                 {project.category} Project
               </h2>
               <p className="text-white/60">{project.description}</p>
-              <ul className="flex gap-4">
-                {project.stack.map((item, index) => (
-                  <li key={index} className="text-xl text-cyan-400">
-                    {item.name}
-                    {index !== project.stack.length - 1 && ","}
-                  </li>
-                ))}
-              </ul>
+              <ul className="block">
+              {project.stack.map((item, index) => (
+                <li key={index} className="text-sm text-cyan-400 mb-1">
+                  {item.name}
+                  {index !== project.stack.length - 1 && ","}
+                </li>
+              ))}
+            </ul>
+
               <div className="border border-white/20"></div>
               <div className="flex items-center gap-4">
                 <Link href={project.live} passHref>

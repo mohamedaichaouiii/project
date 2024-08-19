@@ -1,19 +1,21 @@
-"use client";
+"use client";  // Add this line at the top of the file
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { 
+import {
   Select,
   SelectContent,
   SelectGroup,
   SelectItem,
   SelectLabel,
   SelectTrigger,
-  SelectValue 
+  SelectValue
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import emailjs from 'emailjs-com';
 
 const info = [
   {
@@ -34,6 +36,43 @@ const info = [
 ];
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phone: '',
+    service: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSelect = (value) => {
+    setFormData({ ...formData, service: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      await emailjs.send('service_raoswd2', 'template_id', formData, 'user_id');
+      alert('Message sent successfully!');
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        service: '',
+        message: ''
+      });
+    } catch (error) {
+      alert('There was an error sending the message.');
+    }
+  };
+
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -50,18 +89,45 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:w-[54%] order-2 xl:order-none">
-            <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+            <form 
+              className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
+              onSubmit={handleSubmit}
+            >
               <h3 className="text-4xl text-cyan-400">Let's work together!</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facilis voluptatem voluptatum. Quaerat, ad sint.
+                I’m eager to collaborate on software projects that push boundaries and solve real-world problems. If you're looking for a partner to build innovative solutions and drive technology forward, let’s connect and explore how we can achieve success together.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="text" placeholder="First Name" />
-                <Input type="text" placeholder="Last Name" />
-                <Input type="email" placeholder="Email" />
-                <Input type="tel" placeholder="Phone number" />
+                <Input 
+                  type="text" 
+                  placeholder="First Name" 
+                  name="firstName"
+                  value={formData.firstName}
+                  onChange={handleChange}
+                />
+                <Input 
+                  type="text" 
+                  placeholder="Last Name" 
+                  name="lastName"
+                  value={formData.lastName}
+                  onChange={handleChange}
+                />
+                <Input 
+                  type="email" 
+                  placeholder="Email" 
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                />
+                <Input 
+                  type="tel" 
+                  placeholder="Phone number" 
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                />
               </div>
-              <Select>
+              <Select onValueChange={handleSelect}>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
@@ -69,13 +135,19 @@ const Contact = () => {
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
                     <SelectItem value="web">Web Development</SelectItem>
-                    <SelectItem value="uiux">UI/UX</SelectItem>
+                    <SelectItem value="uiux">Full stack</SelectItem>
                     <SelectItem value="java">JAVA</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
-              <Textarea className="h-[200px]" placeholder="Type your message here" />
-              <Button size="md" className="w-full max-w-[300px]">Send Message</Button>
+              <Textarea 
+                className="h-[200px]" 
+                placeholder="Type your message here" 
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+              />
+              <Button size="md" className="w-full max-w-[300px]" type="submit">Send Message</Button>
             </form>
           </div>
 

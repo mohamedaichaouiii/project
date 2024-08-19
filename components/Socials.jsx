@@ -1,9 +1,9 @@
 import { FaGithub, FaLinkedinIn, FaYoutube, FaInstagram } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "https://github.com/your-profile" },
-  { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/your-profile" },
-  { icon: <FaYoutube />, path: "https://www.youtube.com/c/your-channel" },
+  { icon: <FaGithub />, path: "https://github.com/mohamedaichaouiii" },
+  { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/mohamed-aichaoui/" },
+  { icon: <FaYoutube />, path: "https://www.youtube.com/@MohamedAichaoui-xr4ic" },
   { icon: <FaInstagram />, path: "https://www.instagram.com/your-profile" },
 ];
 
