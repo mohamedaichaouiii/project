@@ -32,7 +32,8 @@ const Stairs = () => {
                         ease: "easeInOut",
                         delay: reverseIndex(index) * 0.1,
                     }}
-                    className="absolute top-0 left-0 w-full h-full bg-white"
+                    className="w-full h-full bg-white relative"
+                    style={{ minHeight: '10vh' }}  // Add minHeight to ensure responsiveness
                 />
             ))}
         </>
