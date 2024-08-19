@@ -3,7 +3,10 @@
   "rules": {
     "react/no-unescaped-entities": "off",
     "@typescript-eslint/quotes": "off",
-    "quotes": "off",
-    "no-useless-escape": "off"
+    "quotes": [0],
+    "avoidEscape": 0,
+    "allowtemplateLiterals": 0,
+    "no-useless-escape": 0
   }
 }
+
