@@ -1,6 +1,6 @@
-"use client";  // Add this line at the top of the file
+"use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -15,7 +15,6 @@ import {
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import emailjs from 'emailjs-com';
 
 const info = [
   {
@@ -45,6 +44,21 @@ const Contact = () => {
     message: ''
   });
 
+  useEffect(() => {
+    // Dynamically load EmailJS script
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
+    script.async = true;
+    script.onload = () => {
+      window.emailjs.init("nMPLK0I587n8Zk9Wo"); // Initialize EmailJS with your public key
+    };
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -54,11 +68,9 @@ const Contact = () => {
     setFormData({ ...formData, service: value });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
+  const sendEmail = async (templateParams) => {
     try {
-      await emailjs.send('service_raoswd2', 'template_id', formData, 'user_id');
+      await window.emailjs.send('service_raoswd2', 'template_jsotp8n', templateParams);
       alert('Message sent successfully!');
       setFormData({
         firstName: '',
@@ -69,8 +81,14 @@ const Contact = () => {
         message: ''
       });
     } catch (error) {
+      console.error('Failed to send message:', error);
       alert('There was an error sending the message.');
     }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    sendEmail(formData);
   };
 
   return (
