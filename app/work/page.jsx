@@ -268,12 +268,15 @@ const Work = () => {
               {projects.map((project, index) => (
                 <SwiperSlide key={index}>
                 <Image 
-                src={project.image} 
-                alt={project.title} 
-                layout="fill" 
-                objectFit="cover" 
-                className="object-cover"
-              /> 
+                  src={project.image} 
+                  alt={project.title} 
+                  layout="responsive" 
+                  width={1000} 
+                  height={500} 
+                  objectFit="cover" 
+                  className="object-cover"
+                />
+
                 </SwiperSlide>
               ))}
             </Swiper>
