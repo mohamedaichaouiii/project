@@ -75,22 +75,6 @@ const projects = [
     live: "",
     github: "",
   },
-
-  {
-    num: "02",
-    category: "Fullstack",
-    title: "Mission de freelance : Application Bancaire Avancée",
-    description: `Développement d’une application bancaire avancée pour deux types d’utilisateurs:
-    - Utilisateur standard : Création de compte, virements, gestion des dépôts, carnet d’adresses, consultation des transactions, tableau de bord avec graphiques.
-    - Utilisateur administrateur : Validation et suppression de comptes, tableau de bord des utilisateurs.`,
-    stack: [
-      { name: "Java 17, Spring Boot, Hibernate, JPA, JWT, Gestion des exceptions" },
-      { name: "Angular, HTTP module, DTO, IntelliJ IDEA." },
-    ],
-    image: "/assets2/work/2/1.png",
-    live: "",
-    github: "",
-  },
   {
     num: "02",
     category: "Fullstack",
