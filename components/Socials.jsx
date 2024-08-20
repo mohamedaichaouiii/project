@@ -1,10 +1,10 @@
-import { FaGithub, FaLinkedinIn, FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaYoutube, FaEnvelope } from "react-icons/fa";
 
 const socials = [
   { icon: <FaGithub />, path: "https://github.com/mohamedaichaouiii" },
   { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/mohamed-aichaoui/" },
   { icon: <FaYoutube />, path: "https://www.youtube.com/@MohamedAichaoui-xr4ic" },
-  { icon: <FaInstagram />, path: "https://www.instagram.com/your-profile" },
+  { icon: <FaEnvelope />, path: "mailto:mohamed.aichaoui@etudiant-enit.utm.tn" },
 ];
 
 const Socials = ({ containerStyles, iconStyles }) => {
