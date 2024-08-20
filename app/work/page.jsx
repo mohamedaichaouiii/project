@@ -170,7 +170,7 @@ const projects = [
     num: "03",
     category: "Frontend",
     title: "Membre du département IT de l’association ENIT Junior Entreprise: Site Web The Room Escape",
-    description: `Création d’une interface web réactive et adaptée aux mobiles qui optimise l’expérience utilisateur.`,
+    description:"As part of the IT department at ENIT Junior Enterprise, I had the opportunity to work on the frontend development of 'THE ROOme Tunisia' website, collaborating with a real client. This experience allowed me to apply my web development skills in a professional setting, contributing to a project that is both innovative and impactful",
     stack: [
       { name: "HTML, CSS, JavaScript" },
     ],
@@ -182,7 +182,7 @@ const projects = [
     num: "03",
     category: "Frontend",
     title: "Membre du département IT de l’association ENIT Junior Entreprise: Site Web The Room Escape",
-    description: `Création d’une interface web réactive et adaptée aux mobiles qui optimise l’expérience utilisateur.`,
+    description: "As part of the IT department at ENIT Junior Enterprise, I had the opportunity to work on the frontend development of 'THE ROOme Tunisia' website, collaborating with a real client. This experience allowed me to apply my web development skills in a professional setting, contributing to a project that is both innovative and impactful",
     stack: [
       { name: "HTML, CSS, JavaScript" },
     ],
@@ -194,7 +194,7 @@ const projects = [
     num: "03",
     category: "Frontend",
     title: "Membre du département IT de l’association ENIT Junior Entreprise: Site Web The Room Escape",
-    description: `Création d’une interface web réactive et adaptée aux mobiles qui optimise l’expérience utilisateur.`,
+    description: "As part of the IT department at ENIT Junior Enterprise, I had the opportunity to work on the frontend development of 'THE ROOme Tunisia' website, collaborating with a real client. This experience allowed me to apply my web development skills in a professional setting, contributing to a project that is both innovative and impactful",
     stack: [
       { name: "HTML, CSS, JavaScript" },
     ],
