@@ -191,15 +191,18 @@ const Resume = () => {
             </TabsContent>
           </div>
         </Tabs>
-        <div className="flex justify-center mt-12">
-          <button
+         <div className="flex justify-center mt-12">
+          <a
+            href="https://drive.google.com/file/d/1Rs8vNmL7gRNR1dNrc7WpJJwZbl7t11y6/view"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 text-white bg-cyan-500 hover:bg-cyan-600 rounded-full px-8 py-4 transition-all duration-300"
-            onClick={() => window.open('/path/to/resume.pdf', '_blank')}
           >
             <FiDownload className="text-xl" />
             Download Resume
-          </button>
+          </a>
         </div>
+
       </div>
     </motion.div>
   );
