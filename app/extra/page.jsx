@@ -97,7 +97,7 @@ const projects = [
 
 const Extra = () => {
   const [project, setProject] = useState(projects[0]);
-  const [swiperInstance, setSwiperInstance] = useState(null); // State to hold swiper instance
+  const [swiperInstance, setSwiperInstance] = useState(null);
 
   const handleSlideChange = (swiper) => {
     const currentIndex = swiper.activeIndex;
@@ -106,11 +106,8 @@ const Extra = () => {
 
   return (
     <motion.div
-    initial={{opacity: 0}} animate={{opacity: 1, transition:{
-      delay:1,
-      duration:0.4,
-      ease:"easeIn"
-  }}}
+      initial={{ opacity: 0 }} 
+      animate={{ opacity: 1, transition: { delay: 1, duration: 0.4, ease: "easeIn" }}}
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
       <div className="container mx-auto">
@@ -133,7 +130,6 @@ const Extra = () => {
                 ))}
               </ul>
               <div className="border border-white/20"></div>
-  
             </div>
           </div>
 
@@ -143,11 +139,17 @@ const Extra = () => {
               slidesPerView={1}
               className="xl:h-[520px] mb-12"
               onSlideChange={handleSlideChange}
-              onSwiper={(swiper) => setSwiperInstance(swiper)} // Set swiper instance when initialized
+              onSwiper={(swiper) => setSwiperInstance(swiper)}
             >
               {projects.map((project, index) => (
                 <SwiperSlide key={index}>
-                  <Image src={project.image} alt={project.title} layout="responsive" width={500} height={300} />
+              <Image 
+                    src={project.image} 
+                    alt={project.title} 
+                    layout="fill" 
+                    objectFit="cover" 
+                    className="object-cover"
+                  />
                 </SwiperSlide>
               ))}
             </Swiper>
