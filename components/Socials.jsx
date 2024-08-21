@@ -1,9 +1,9 @@
-import { FaGithub, FaLinkedinIn, FaYoutube, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaLaptopCode, FaEnvelope } from "react-icons/fa";
 
 const socials = [
   { icon: <FaGithub />, path: "https://github.com/mohamedaichaouiii" },
   { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/mohamed-aichaoui/" },
-  { icon: <FaYoutube />, path: "https://www.youtube.com/@MohamedAichaoui-xr4ic" },
+  { icon: <FaLaptopCode />, path: "https://leetcode.com/u/aichaoui/" }, // Update with your LeetCode profile link
   { icon: <FaEnvelope />, path: "mailto:mohamed.aichaoui@etudiant-enit.utm.tn" },
 ];
 
