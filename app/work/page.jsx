@@ -11,6 +11,60 @@ import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
+        {
+    num: "00",
+    category: "Fullstack",
+    title: "Projet Real-Time chat Application PERN Stack ",
+    description: `Features: Authentication and authorization with JWT, realtime
+      messaging via Socket.io, online user status, global
+         state management with Zustand, and error handling.
+    Project Scope: Enabled instant communication and dynamic
+    interactions with a focus on seamless user experience
+     and responsive design.`,
+    stack: [
+      { name: "React, Node.js, Express.js, PostgreSQL, TypeScript" },
+      { name: "Socket.io, Prisma, TailwindCSS, JWT, Zustand " },
+    ],
+    image: "/assets2/work/4/11.png",
+    live: "",
+    github: "https://github.com/mohamedaichaouiii/PERN",
+  },
+    {
+    num: "00",
+    category: "Fullstack",
+    title: "Projet Real-Time chat Application PERN Stack ",
+    description: `Features: Authentication and authorization with JWT, realtime
+      messaging via Socket.io, online user status, global
+         state management with Zustand, and error handling.
+    Project Scope: Enabled instant communication and dynamic
+    interactions with a focus on seamless user experience
+     and responsive design.`,
+    stack: [
+      { name: "React, Node.js, Express.js, PostgreSQL, TypeScript" },
+      { name: "Socket.io, Prisma, TailwindCSS, JWT, Zustand " },
+    ],
+    image: "/assets2/work/4/12.png",
+    live: "",
+    github: "https://github.com/mohamedaichaouiii/PERN",
+  },
+    {
+    num: "00",
+    category: "Fullstack",
+    title: "Projet Real-Time chat Application PERN Stack ",
+    description: `Features: Authentication and authorization with JWT, realtime
+      messaging via Socket.io, online user status, global
+         state management with Zustand, and error handling.
+    Project Scope: Enabled instant communication and dynamic
+    interactions with a focus on seamless user experience
+     and responsive design.`,
+    stack: [
+      { name: "React, Node.js, Express.js, PostgreSQL, TypeScript" },
+      { name: "Socket.io, Prisma, TailwindCSS, JWT, Zustand " },
+    ],
+    image: "/assets2/work/4/13.png",
+    live: "",
+    github: "https://github.com/mohamedaichaouiii/PERN",
+  },
   {
     num: "01",
     category: "Fullstack",
