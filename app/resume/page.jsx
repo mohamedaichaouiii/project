@@ -191,15 +191,24 @@ const Resume = () => {
             </TabsContent>
           </div>
         </Tabs>
-         <div className="flex justify-center mt-12">
+        <div className="flex justify-center mt-12 gap-4">
           <a
-            href="https://drive.google.com/file/d/1Rs8vNmL7gRNR1dNrc7WpJJwZbl7t11y6/view"
+            href=https://drive.google.com/file/d/1pA8AGxIW2EUymXDmPq19PZbgbMIarR-E/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-white bg-cyan-500 hover:bg-cyan-600 rounded-full px-8 py-4 transition-all duration-300"
           >
             <FiDownload className="text-xl" />
-            Download Resume
+            Download English Resume
+          </a>
+          <a
+            href="https://drive.google.com/file/d/14dWwAQ4zqyMGekeOUA7rP8VacRAhwRhM/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-white bg-cyan-500 hover:bg-cyan-600 rounded-full px-8 py-4 transition-all duration-300"
+          >
+            <FiDownload className="text-xl" />
+            Download French Resume
           </a>
         </div>
 
