@@ -193,7 +193,7 @@ const Resume = () => {
         </Tabs>
         <div className="flex justify-center mt-12 gap-4">
           <a
-            href=https://drive.google.com/file/d/1pA8AGxIW2EUymXDmPq19PZbgbMIarR-E/view?usp=sharing"
+            href="https://drive.google.com/file/d/1pA8AGxIW2EUymXDmPq19PZbgbMIarR-E/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-white bg-cyan-500 hover:bg-cyan-600 rounded-full px-8 py-4 transition-all duration-300"
