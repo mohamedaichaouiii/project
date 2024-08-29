@@ -15,7 +15,7 @@ const Home = () => {
               Hello, I'm <br /> <span className="text-cyan-400">Mohamed Aichaoui</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            Full-stack developer with expertise in Angular, React, Spring Boot, and a Java enthusiast. Driven by curiosity and innovation, I'm passionate about solving real-world problems and making a meaningful impact through technology.            </p>
+          Full-stack developer with expertise in Angular, React, and a strong enthusiasm for backend development. Driven by curiosity and innovation, I'm passionate about solving real-world problems and making a meaningful impact through technology.   </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
             <a
               href="https://drive.google.com/file/d/1Rs8vNmL7gRNR1dNrc7WpJJwZbl7t11y6/view?usp=sharing"
