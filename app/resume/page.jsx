@@ -17,7 +17,7 @@ const about = {
     { fieldName: "LinkedIn", fieldValue: "mohamed-aichaoui" },
     { fieldName: "Freelance", fieldValue: "Available" },
     { fieldName: "Languages", fieldValue: "English B2, French B2" },
-    { fieldName: "Email", fieldValue: "mohamed.aichaoui@etudiant-enit.utm.tn" },
+    { fieldName: "Email", fieldValue: "mohamed.aichaoui.tic@gmail.com" },
   ],
 };
 
@@ -25,6 +25,12 @@ const experience = {
   title: "My Professional Journey",
   description: "Explore the highlights of my career, showcasing diverse roles and impactful projects that have shaped my expertise and drive in the tech industry.",
   items: [
+    {
+      company: "BramaSquare",
+      details: "Java Software Engineer: Contributed to enterprise-level software using Java, Angular, and microservices architecture, with a strong focus on domain-driven design and scalable backend systems.",
+      duration: "November 2024 - Present",
+      keywords: "Java, Java Software Development, Angular, Microservices, Domain-Driven Design (DDD), MongoDB"
+    },
     {
       company: "Talys Consulting",
       details: "Full Stack Developer Angular/Spring Boot: Improved user experience with customizable account pages and offline settings.",
@@ -68,7 +74,7 @@ const skills = {
   title: "My Skills",
   description: "Key technologies and tools I have rigorously tested and worked with extensively to develop and refine my skills.",
   list: [
-    { icon: <FaJava />, name: "Java" },
+    { icon: <FaJava />, name: "Java 8, 17, 21" },
     { icon: <FaCss3 />, name: "CSS/Sass" },
     { icon: <FaJs />, name: "JavaScript" },
     { icon: <FaReact />, name: "React.js" },

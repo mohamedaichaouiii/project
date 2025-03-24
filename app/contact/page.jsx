@@ -25,12 +25,12 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "mohamed.aichaoui@etudiant-enit.utm.tn"
+    description: "mohamed.aichaoui.tic@gmail.com"
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "Omran superieur, Tunisia"
+    description: "Tunis, Tunisia"
   },
 ];
 
