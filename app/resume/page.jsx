@@ -74,7 +74,7 @@ const skills = {
   title: "My Skills",
   description: "Key technologies and tools I have rigorously tested and worked with extensively to develop and refine my skills.",
   list: [
-    { icon: <FaJava />, name: "Java 8, 17, 21" },
+    { icon: <FaJava />, name: "Java" },
     { icon: <FaCss3 />, name: "CSS/Sass" },
     { icon: <FaJs />, name: "JavaScript" },
     { icon: <FaReact />, name: "React.js" },
