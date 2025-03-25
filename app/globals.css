@@ -21,7 +21,7 @@
   -webkit-text-stroke: 1px #ffffff;
 }
 .text-outline-hover {
-  -webkit-text-stroke: 1px #d3ee22;
+  -webkit-text-stroke: 1px #22d3ee;
 }
 /* Add this in your global CSS file */
 @media (max-width: 768px) {
