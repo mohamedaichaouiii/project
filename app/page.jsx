@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full px-4">
-        <div className="flex flex-col items-center justify-center gap-8 py-8 md:flex-row md:gap-12 md:py-12">
+        <div className="flex flex-col items-center justify-center gap-8 py-8 mt-8 md:flex-row md:gap-12 md:py-12 md:mt-12">
           <div className="text-center md:text-left">
             <span className="text-lg md:text-xl">Software Engineer</span>
             <h1 className="h1">
