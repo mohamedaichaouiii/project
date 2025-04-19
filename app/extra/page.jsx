@@ -15,7 +15,7 @@ const projects = [
     num: "01",
     category: "Intell'Eau",
     title: "Project 3",
-    description: "At Intell’Eau, we focus on developing innovative solutions for water management. Our system provides precise control over water consumption, detects leaks, and monitors water quality to ensure efficient and timely responses. This work has deepened my dedication to research and technological innovation in the field of water management",
+    description: "At Intell’Eau, we focus on developing innovative solutions for water management, Our system provides precise control over water consumption, detects leaks, and monitors water quality to ensure efficient and timely responses. This work has deepened my dedication to research and technological innovation in the field of water management",
     stack: [{ name: "Co-founder" }, { name: "Advanced System" }, { name: "Efficient Response" }, { name: "Research and Innovation" }],
     image: "/assets2/1/6.jpg",
     live: "",
